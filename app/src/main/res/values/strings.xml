@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Projectile Sim</string>
+    <string name="button">Button</string>
+    <string name="name">Name</string>
+    <string name="button_send">Send</string>
+
+    <string name="Enter_Value_Button"></string>
+    <string name="Enter_Angle_Field"></string>
+    <string name="Enter_Velocity_Field"></string>
+    <string name="Enter_InitiHeight_Field"></string>
+    <string name="Enter_FinalHeight_Field"></string>
+
+    <string name="Enter_Float">Input</string>
+    <string name="Mass">Mass(kg):</string>
+    <string name="inputVelocity">InitVelocity(m/s):</string>
+    <string name="inputAngle">Angle:</string>
+    <string name="inputInitialHeight">InitialHeight:</string>
+    <string name="inputFinalHeight">FinalHeight:</string>
+</resources>

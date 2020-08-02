@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/Start"
+        android:layout_width="129dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:ems="10"
+        android:hint="@string/Enter_InitiHeight_Field"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/Enter_InitiHeight_Field"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/FinFIeld"
+        android:layout_width="120dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginRight="156dp"
+        android:ems="10"
+        android:hint="@string/Enter_FinalHeight_Field"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/Enter_FinalHeight_Field"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nameAngle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:hint="@string/inputAngle"
+        android:text="@string/inputAngle"
+        app:layout_constraintBaseline_toBaselineOf="@+id/AngleField"
+        app:layout_constraintEnd_toStartOf="@+id/AngleField"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toStartOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/FinHiehgtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/inputFinalHeight"
+        android:text="@string/inputInitialHeight"
+        app:layout_constraintBaseline_toBaselineOf="@+id/FinFIeld"
+        app:layout_constraintEnd_toStartOf="@+id/FinFIeld"
+        app:layout_constraintHorizontal_bias="0.785"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/initHeightName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:hint="@string/inputInitialHeight"
+        android:text="@string/inputInitialHeight"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Start"
+        app:layout_constraintEnd_toStartOf="@+id/Start" />
+
+    <EditText
+        android:id="@+id/MassField"
+        android:layout_width="119dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="@string/Enter_Value_Button"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/Enter_Value_Button"
+        app:layout_constraintEnd_toStartOf="@+id/MassKey"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/AngleField"
+        android:layout_width="126dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:ems="10"
+        android:hint="@string/Enter_Value_Button"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/Enter_Value_Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/VelocityFIeld"
+        android:layout_width="126dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:ems="10"
+        android:hint="@string/Enter_Velocity_Field"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/Enter_Velocity_Field"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/MassKey"
+        android:layout_width="74dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:hint="@string/Enter_Float"
+        android:text="@string/Enter_Float"
+        app:layout_constraintBaseline_toBaselineOf="@+id/MassField"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:hint="@string/Mass"
+        android:text="@string/Mass"
+        app:layout_constraintBaseline_toBaselineOf="@+id/MassField"
+        app:layout_constraintEnd_toStartOf="@+id/MassField"
+        app:layout_constraintHorizontal_bias="0.657"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:text="@string/inputVelocity"
+        app:layout_constraintBaseline_toBaselineOf="@+id/VelocityFIeld"
+        app:layout_constraintEnd_toStartOf="@+id/VelocityFIeld"
+        app:layout_constraintHorizontal_bias="0.962"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
