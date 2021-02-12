@@ -56,6 +56,8 @@ public class MainActivity extends AppCompatActivity {
                 argFinalHeight = Double.valueOf(Finalheight.getText().toString());
 
                 //calculations for the result
+                //using the data about the object from the user inputs
+                double TimeToOtherSide;
                 double TimeToOtherSide = 2*argVelocity*Math.sin(argAngle*PI / 180) / 9.8;
                 double TimeToLandAfter = 0.0;
                 if (argInitialHeight - argFinalHeight < 0)
